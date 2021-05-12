@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="saturn-mail-service" />
+        <module name="clickhouse-demo" />
+        <module name="saturn-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="clickhouse-demo" target="1.8" />
+      <module name="saturn-mail-service" target="1.8" />
+      <module name="saturn-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="clickhouse-demo" options="-parameters" />
+      <module name="saturn-mail-service" options="-parameters" />
+      <module name="saturn-web" options="-parameters" />
+    </option>
+  </component>
+</project>

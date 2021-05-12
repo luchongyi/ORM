@@ -1,0 +1,16 @@
+server:
+  port: 9633
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    clickhouse:
+      driverClassName: ru.yandex.clickhouse.ClickHouseDriver
+      jdbc-url: jdbc:clickhouse://172.16.46.53:8123/default
+      username: default
+      password:
+      initialSize: 10
+      maxActive: 100
+      minIdle: 10
+      maxWait: 6000
+

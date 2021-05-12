@@ -1,0 +1,5 @@
+com\ck\config\saturnAmazonWmsConfig.class
+com\ck\controller\AmazonAuthController.class
+com\ck\model\Clicks.class
+com\ck\WebApplication.class
+com\ck\mapper\ClicksMapper.class
